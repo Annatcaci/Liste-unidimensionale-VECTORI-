@@ -1,0 +1,10 @@
+t=[10,11,12,13,13,13,16,17,18,18,20,21,22,24,25,26,25,22,19,15,13,12,11,10]
+#a)
+print("Temperatura medie: ",sum(t)//24)
+#b)
+print("Cea mai mica temperatura: ",max(t))
+print("Cea mai mare temperatura: ",min(t))
+#c)
+print("La orele:",[i for i, e in enumerate(t) if e==min(t)],"a fost inregistrate cea mai mica temperatura")
+#d)
+print("La orele:",[i for i, e in enumerate(t) if e==max(t)],"a fost inregistrate cea mai mare temperatura")
